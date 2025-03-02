@@ -1,35 +1,45 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta />
-        <!-- Кодировка -->
-        <meta />
-        <!-- Описание -->
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Разгадай код - это интерактивная игра для тренировки логического мышления.">
         <title>Разгадай код</title>
     </head>
     <body>
         <h1>Исправьте атрибуты в коде</h1>
+        <a href="#" title="Нажми на меня">Нажми на меня</a>
 
-        <a>Нажми на меня</a>
+        <img src="image.jpg" alt="Описание изображения">
 
-        <img />
-
-        <form>
-            <input />
-            <button>Отправить</button>
+        <form action="/submit" method="post">
+            <input type="text" name="inputField" placeholder="Введите текст" required />
+            <button type="submit">Отправить</button>
         </form>
 
-        <video></video>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
 
-        <audio></audio>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
 
         <table>
-            <tr>
-                <td>Ячейка 1</td>
-                <td>Ячейка 2</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Заголовок 1</th>
+                    <th>Заголовок 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <tb>Ячейка 1</tb>
+                    <tb>Ячейка 2</tb>
+                </tr>
+            </tbody>
         </table>
 
-        <iframe></iframe>
+        <iframe src="https://example.com" title="Пример iframe" width="600" height="400"></iframe>
     </body>
 </html>
